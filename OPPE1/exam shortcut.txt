@@ -1,2 +1,0 @@
-Byte-wise access ke liye hamesha->
-unsigned char *p = (unsigned char *)&a;

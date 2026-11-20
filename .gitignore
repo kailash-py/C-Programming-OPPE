@@ -4,6 +4,15 @@
 *.obj
 *.out
 
+# Text files and exam shortcuts
+*.txt
+
+# Local basic questions
+basic*
+OPPE1/basicQuestion1.c
+OPPE1/basicQuestion2.c
+OPPE1/exam shortcut.txt
+
 # VS Code / IDE settings
 .vscode/
 .idea/

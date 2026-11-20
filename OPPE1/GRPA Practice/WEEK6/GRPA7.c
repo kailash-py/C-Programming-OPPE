@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void store_numbers(int *p, int n){
+    int i;
+    for ( int i= 0; i<n; i++){
+        scanf("%d", &p[i]);
+    }
+}
+
+int main(){
+    int n;
+    int a[100];
+    scanf("%d", &n);
+    store_numbers(&a[0], n);
+    for ( int i=0; i<n;i++){
+        printf("%d", a[i]);
+    }
+    return 0;
+}
